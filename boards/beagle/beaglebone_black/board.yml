@@ -1,0 +1,6 @@
+board:
+  name: beaglebone_black
+  full_name: BeagleBone Black
+  vendor: beagle
+  socs:
+  - name: am3358

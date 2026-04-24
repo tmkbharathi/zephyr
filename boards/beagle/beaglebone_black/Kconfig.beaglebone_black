@@ -1,0 +1,5 @@
+# Copyright (c) 2026 Manikanda Bharathi
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_BEAGLEBONE_BLACK
+	select SOC_AM3358 if BOARD_BEAGLEBONE_BLACK_AM3358

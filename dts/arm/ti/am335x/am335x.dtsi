@@ -31,7 +31,8 @@
 		intc: interrupt-controller@48200000 {
 			compatible = "ti,am335x-intc";
 			interrupt-controller;
-			#interrupt-cells = <1>;
+			#interrupt-cells = <2>;
+			#address-cells = <0>;
 			reg = <0x48200000 0x1000>;
 		};
 
@@ -39,7 +40,8 @@
 			compatible = "ns16550";
 			reg = <0x44e09000 0x2000>;
 			reg-shift = <2>;
-			interrupts = <72>;
+			clock-frequency = <48000000>;
+			interrupts = <72 0>;
 			status = "disabled";
 		};
 	};
