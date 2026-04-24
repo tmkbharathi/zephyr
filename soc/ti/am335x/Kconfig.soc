@@ -1,0 +1,14 @@
+# Copyright (c) 2026 Manikanda Bharathi
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_SERIES_AM335X
+	bool
+	select SOC_FAMILY_TI_AM335X
+
+config SOC_AM3358
+	bool
+	select SOC_SERIES_AM335X
+	select CPU_CORTEX_A8
+
+config SOC_FAMILY_TI_AM335X
+	bool

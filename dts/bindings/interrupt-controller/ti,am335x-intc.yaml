@@ -1,0 +1,15 @@
+# Copyright (c) 2026 Manikanda Bharathi
+# SPDX-License-Identifier: Apache-2.0
+
+description: TI AM335x Interrupt Controller
+
+compatible: "ti,am335x-intc"
+
+include: [interrupt-controller.yaml, base.yaml]
+
+properties:
+  reg:
+    required: true
+
+  "#interrupt-cells":
+    const: 1

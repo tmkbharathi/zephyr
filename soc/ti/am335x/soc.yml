@@ -1,0 +1,6 @@
+family:
+- name: ti_am335x
+  series:
+  - name: am335x
+    socs:
+    - name: am3358

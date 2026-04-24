@@ -1,0 +1,9 @@
+# Copyright (c) 2026 Manikanda Bharathi
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_FAMILY_TI_AM335X
+
+config SOC_PART_NUMBER
+	default "AM3358" if SOC_AM3358
+
+endif # SOC_FAMILY_TI_AM335X
